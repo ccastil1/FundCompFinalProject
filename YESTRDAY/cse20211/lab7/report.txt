@@ -1,0 +1,11 @@
+Celeste Castillo
+
+				Lab 7 Part 2
+	The purpose of this program was to utilize file pointers and two-dimensional arrays. The user would first be prompted to enter a text file. Then the user would be 
+given five different options. These options were: display all the current sayings in the text file, add a new saying to the file, display a list of all the sayings with a 
+specified search word, save the text file as a new file, and quit the program. The user simply entered the number of the desired option and followed the program's prompts.
+	From the programer's perspective, the program used a switch case setup for each option. A two dimensional character array was established for the text file. First, 
+the program established file pointers to enable the opening, reading, and editng of the text file. Then, the program used a while loop to scan each character of the text 
+file. This was used in the needed cases along with the fgets and fgetc functions to display and edit the text file. The program runs in a while loop such that the menu of 
+options is displayed after each output, so that the user can continue using the program until he decides to quit by pressing "5".
+

@@ -1,0 +1,16 @@
+#! /bin/tcsh
+
+set myfile = $1 
+
+while !(-e $myfile )
+	sleep 2
+end
+
+(chmod U+x)
+
+
+
+
+set myvar = `echo value '$USER' is $USER` 
+echo $myvar
+

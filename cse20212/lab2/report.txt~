@@ -1,0 +1,7 @@
+Celeste Castillo
+Lab 2
+CSE 20212
+3 Feb 2015
+			Rational Report
+
+	The purpose of the Rational calcuator was to use a class and operator overloading to create a calculator for performing arithmetic operations on fractions. From the user perspective, once the program is launched in interactive mode, using the main_rational.cpp driver file, the user is prompted to enter the numerator and denominator for two fractions. The program checks to ensure that neither of the denominators are 0, and then adds the fractions, displaying the sum.  
