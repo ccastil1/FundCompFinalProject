@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-04/hw-04.txt" added="2015-02-12T22:50:32Z" modified="2015-02-13T10:17:21Z" visited="2015-02-12T22:50:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-02-13T10:17:21Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-04/hw-04.tex" added="2015-02-13T16:36:24Z" modified="2015-02-13T17:34:53Z" visited="2015-02-13T16:36:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tex"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-02-13T17:34:53Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-04/section2yam1.sed" added="2015-02-13T16:55:50Z" modified="2015-02-13T17:31:09Z" visited="2015-02-13T16:55:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-02-13T17:31:09Z" count="20"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-04/collect.sed" added="2015-02-13T17:05:17Z" modified="2015-02-13T17:08:51Z" visited="2015-02-13T17:05:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-02-13T17:08:51Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-04/hw-04" added="2015-02-13T17:27:41Z" modified="2015-02-13T17:27:41Z" visited="2015-02-13T17:27:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-02-13T17:27:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-04/hw-04.pdf" added="2015-02-13T17:31:27Z" modified="2015-02-13T17:35:45Z" visited="2015-02-13T17:31:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2015-02-13T17:35:45Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/CardDeck.h" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/CardDeck.h&apos;" modified="2015-02-18T04:28:08Z" count="20"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/CardDeck.cpp" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/CardDeck.cpp&apos;" modified="2015-02-18T04:28:15Z" count="41"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/main.cpp" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/main.cpp&apos;" modified="2015-02-18T04:29:08Z" count="16"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab2/lab2part3/makefile" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab2/lab2part3/makefile&apos;" modified="2015-02-17T17:34:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/makefile" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/makefile&apos;" modified="2015-02-18T05:44:37Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab1/makefile" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab1/makefile&apos;" modified="2015-02-17T17:38:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab1/newlab1/makefile" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab1/newlab1/makefile&apos;" modified="2015-02-17T18:12:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/MonkeySort.cpp" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/MonkeySort.cpp&apos;" modified="2015-02-18T05:51:47Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/main.cpp" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/main.cpp&apos;" modified="2015-02-17T20:32:17Z" count="21"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/makefile" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/makefile&apos;" modified="2015-02-17T19:05:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/CardDeck.cpp" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/CardDeck.cpp&apos;" modified="2015-02-17T19:46:18Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/Blackjack/main.cpp" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/Blackjack/main.cpp&apos;" modified="2015-02-17T21:13:08Z" count="32"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/Blackjack/CardDeck.cpp" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/Blackjack/CardDeck.cpp&apos;" modified="2015-02-17T21:19:59Z" count="23"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/Blackjack/CardDeck.h" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/Blackjack/CardDeck.h&apos;" modified="2015-02-17T21:11:09Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/trial" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/trial&apos;" modified="2015-02-17T20:10:43Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/trial.cpp" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/Part3/trial.cpp&apos;" modified="2015-02-17T20:12:52Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab2/lab2part1-2/C4Col.cpp" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab2/lab2part1-2/C4Col.cpp&apos;" modified="2015-02-17T20:16:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/report.txt" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab4/report.txt&apos;" modified="2015-02-17T21:20:02Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab2/lab2part1-2/C4Board.cpp" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab2/lab2part1-2/C4Board.cpp&apos;" modified="2015-02-17T21:07:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/Public/.cshrc" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/Public/.cshrc&apos;" modified="2015-02-18T17:43:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-05/hw-05.tex" added="2015-02-19T18:59:16Z" modified="2015-02-19T20:15:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tex"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-02-19T20:15:16Z" count="20"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-05/orioles.txt" added="2015-02-19T18:59:16Z" modified="2015-02-19T19:18:41Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-02-19T19:18:41Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-05/numbers.txt" added="2015-02-19T18:59:16Z" modified="2015-02-19T19:18:38Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-02-19T19:18:38Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-05/coefs.txt" added="2015-02-19T18:59:16Z" modified="2015-02-19T19:18:35Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-02-19T19:18:35Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-03/grade_comments/comments_hw-03.txt" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-03/grade_comments/comments_hw-03.txt&apos;" modified="2015-02-19T17:32:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-05/hw-05" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-05/hw-05&apos;" modified="2015-02-19T17:34:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/btovar/hw-05/orioles.txt" added="2015-02-19T18:59:16Z" modified="2015-02-19T18:59:16Z" visited="2015-02-19T18:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/btovar/hw-05/orioles.txt&apos;" modified="2015-02-19T18:08:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-05/psroot.awk" added="2015-02-19T19:05:35Z" modified="2015-02-19T19:16:32Z" visited="2015-02-19T19:05:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-awk"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-02-19T19:16:32Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-05/quadratic.awk" added="2015-02-19T19:23:58Z" modified="2015-02-19T19:33:55Z" visited="2015-02-19T19:23:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-awk"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-02-19T19:33:55Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-05/quad.awk" added="2015-02-22T21:10:23Z" modified="2015-02-22T21:10:23Z" visited="2015-02-22T21:10:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-awk"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-05/quad.awk&apos;" modified="2015-02-20T07:08:41Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-05/hw-05.pdf" added="2015-02-22T21:10:23Z" modified="2015-02-22T21:10:23Z" visited="2015-02-22T21:10:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-05/hw-05.pdf&apos;" modified="2015-02-20T17:28:48Z" count="29"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/unix/inclass/Feb_20.txt" added="2015-02-22T21:10:23Z" modified="2015-02-22T21:10:23Z" visited="2015-02-22T21:10:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/unix/inclass/Feb_20.txt&apos;" modified="2015-02-20T17:39:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/unix/hw-05.pdf" added="2015-02-22T21:10:23Z" modified="2015-02-22T21:10:23Z" visited="2015-02-22T21:10:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince file:///afs/nd.edu/user21/ccastil1/unix/hw-05.pdf&apos;" modified="2015-02-20T17:42:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/unix/Feb_20.txt" added="2015-02-22T21:10:23Z" modified="2015-02-22T21:10:23Z" visited="2015-02-22T21:10:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/unix/Feb_20.txt&apos;" modified="2015-02-20T18:20:50Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/Sudoku/Puzzle.h" added="2015-02-22T21:10:23Z" modified="2015-02-22T21:10:23Z" visited="2015-02-22T21:10:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/Sudoku/Puzzle.h&apos;" modified="2015-02-21T19:17:20Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/cse20212/lab5/Puzzle.h" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/cse20212/lab5/Puzzle.h&apos;" modified="2015-02-23T18:32:19Z" count="15"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/cse20212/lab5/main.cpp" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/cse20212/lab5/main.cpp&apos;" modified="2015-02-23T18:29:21Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/cse20212/lab5/newlab5/Puzzle.h" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/cse20212/lab5/newlab5/Puzzle.h&apos;" modified="2015-02-24T21:26:13Z" count="258"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/cse20212/lab5/newlab5/main.cpp" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/cse20212/lab5/newlab5/main.cpp&apos;" modified="2015-02-24T19:11:48Z" count="31"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/cse20212/lab5/newlab5/wordoky.txt" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/cse20212/lab5/newlab5/wordoky.txt&apos;" modified="2015-02-24T04:55:00Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/cse20212/lab5/newlab5/new.cpp" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/cse20212/lab5/newlab5/new.cpp&apos;" modified="2015-02-24T21:02:32Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/cse20212/stuff/Unsaved%20Document%201" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/cse20212/stuff/Unsaved%20Document%201&apos;" modified="2015-02-24T21:02:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/cse20212/stuff/Unsaved%20Document%2010" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/cse20212/stuff/Unsaved%20Document%2010&apos;" modified="2015-02-24T21:02:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/cse20212/stuff/Unsaved%20Document%203" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/cse20212/stuff/Unsaved%20Document%203&apos;" modified="2015-02-24T21:02:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/user21/ccastil1/cse20212/stuff/Unsaved%20Document%204" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/user21/ccastil1/cse20212/stuff/Unsaved%20Document%204&apos;" modified="2015-02-24T21:02:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/Sudoku/report.txt" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/Sudoku/report.txt&apos;" modified="2015-02-24T21:32:16Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/Sudoku/main.cpp" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/Sudoku/main.cpp&apos;" modified="2015-02-24T21:31:35Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/Sudoku/wordoky.txt" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/Sudoku/wordoky.txt&apos;" modified="2015-02-24T21:29:37Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-06/hw-06.tex" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tex"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-06/hw-06.tex&apos;" modified="2015-03-03T05:41:05Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-06/hw-06.pdf" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/hw-06/hw-06.pdf&apos;" modified="2015-02-27T17:49:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/midterm/midterm.pdf" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:51Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2015-03-16T04:11:51Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/midterm/my_midterm.tex" added="2015-03-16T04:11:50Z" modified="2015-03-16T04:11:50Z" visited="2015-03-16T04:11:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tex"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/midterm/my_midterm.tex&apos;" modified="2015-03-06T17:48:50Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/midterm/my_midterm.pdf" added="2015-03-16T04:11:51Z" modified="2015-03-16T04:11:51Z" visited="2015-03-16T04:11:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2015-03-16T04:11:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

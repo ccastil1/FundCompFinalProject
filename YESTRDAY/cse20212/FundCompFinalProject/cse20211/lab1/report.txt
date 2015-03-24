@@ -1,0 +1,18 @@
+Celeste Castillo
+				Lab Report 1
+	The purpose of the program is to calculate the distance an object travels using the user inputs 
+of initial velocity, acceleration, and time of the object’s journey. This calculation is preformed by 
+using the kinematic equation, distance = vt + 0.5at^2.
+	The program first declares five float variables. The variables were declared as float 
+because the inputs are not limited to integer values. These variables are initial velocity, 
+acceleration, time, distance1, distance2, and totaldistance. The program uses the printf 
+function to ask the user to input the initial velocity, acceleration, and time. Then, uses 
+the scanf function to assign those values to their corresponding variables. The program then calculates 
+distance1 as the first part of the kinematic equation, vt. Then, distance2 is calculated as 
+the second part, 0.5at^2. The variable totaldistance is then calculated by adding distance1 and 
+distance2. Finally, the printf function is used to display to the user the distance travelled by the object.
+	Verifying that the program always produces correct results would require running the program 
+with all possible inputs. I did not do this because there are infinite possibilies, but I did run the 
+program with multiple values, including integers and non-integers. Each time, the program ran 
+correctly.
+

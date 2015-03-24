@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+
+char birdy[9000000];
+
+int c = 0, alpha[26] = {0};
+
+FILE *fp;
+
+printf("Enter the name of the file: ");
+
+gets(birdy);
+
+fp = fopen("bird.txt", "r");
+
+        while (birdy[0] != '1') {
+
+                if (birdy[c] >= 'a' && birdy[c] <= 'z') {
+	
+                        alpha[birdy[c]-'a']++;
+
+                        c++;
+                }
+ 	}
+
+        printf("alpha[%c]=%d\n", 65+c, alpha[c]);
+}
+
+

@@ -1,0 +1,75 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include "gfx3.h"
+#include <time.h>
+
+#define HEIGHT 800
+#define WIDTH 800
+#define pi M_PI
+
+void draw_snowflakeoutline(int xcenter, int ycenter, int radius, int red, int green, int blue)
+{
+    double theta;
+    for(theta=pi/2;theta<5*pi/2;theta+=2*pi/5){
+        gfx_line(xcenter,ycenter,xcenter+radius*cos(theta),ycenter+radius*sin(theta));
+        }
+}
+
+void snowflake(int xcenter, int ycenter, int radius, int red, int green, int blue)
+{
+    // base case
+    //if radius of snowflake is less then one return
+    if(radius<1) return;
+
+    // drawing step
+    //draws the 5 armed star looking thing that apparantly is a snowflake
+    draw_snowflakeoutline(xcenter,ycenter,radius);
+
+    // recursive step
+    //calls snowflake 5 times, one at the end of each arm
+    snowflake(xcenter,ycenter+radius,radius/3);
+    snowflake(xcenter+radius*cos(pi/2+2*pi/5),ycenter+radius*sin(pi/2+2*pi/5),radius/3);
+    snowflake(xcenter+radius*cos(pi/2+4*pi/5),ycenter+radius*sin(pi/2+4*pi/5),radius/3);
+    snowflake(xcenter+radius*cos(pi/2+6*pi/5),ycenter+radius*sin(pi/2+6*pi/5),radius/3);
+    snowflake(xcenter+radius*cos(pi/2+8*pi/5),ycenter+radius*sin(pi/2+8*pi/5),radius/3);
+}
+
+
+int main()
+{
+	double theta;
+	int length, red, blue, green, n;
+	char c; 
+	
+	gfx_open(HEIGHT, WIDTH, "Gallery");
+
+	srand(time(NULL));
+
+	while(1)
+	{
+		gfx_clear();	
+
+		for (n=1; n<=15;n++)
+		{
+			length = rand()%(HEIGHT/2-25+1)+25;
+			red = rand()%255;
+			green = rand()%255;
+			blue = rand()%255;
+			
+			snowflake(n*HEIGHT/2, WIDTH/2, HEIGHT/2 - 150, red, green, blue);
+
+			if (gfx_event_waiting() == 1)
+			{
+				c = gfx_wait();
+				if (c == 'q') return 0;
+			}
+
+		c = gfx_wait();
+
+		if (c == 'q') return 0;
+
+		gfx_flush();
+		}
+	}
+}

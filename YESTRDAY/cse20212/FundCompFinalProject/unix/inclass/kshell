@@ -1,0 +1,14 @@
+#! /bin/sh
+
+cd () {
+	#if test $# !=2
+	if [ $# -ne 2 ]
+	then
+		builtin cd $*
+	else
+	fi
+
+
+	cwd= `pwd` 	#or var = $(pwd)
+	nwd= `echo $cwd | sed s/$1/$2/`
+	builtin cd $nwd

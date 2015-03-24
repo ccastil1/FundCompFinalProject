@@ -1,0 +1,66 @@
+template<typename T>
+void Puzzle<T>::checkPlacement(int xcoord, int ycoord)
+{
+	int x = xcoord;
+	int y = ycoord;
+
+	if(SudokuBoardVec[xcoord][ycoord] != 0)
+	{
+		for(int z=0; z < size; z++)
+		{
+			checkBoard[xcoord][ycoord][z] = 0;
+		}	
+
+	}
+
+	for(x=0; x < size; x++)
+	{
+		for(int z=0; z < size; z++)
+		{	
+			if(SudokuBoardVec[x][ycoord] == checkBoard[xcoord][ycoord][z])
+			{
+				checkBoard[xcoord][ycoord][z] = 0;
+			}
+		}
+	}
+
+	for(y=0; y < size; y++)
+	{
+		for(int z=0; z < size; z++)
+		{
+			if(SudokuBoardVec[xcoord][y] == checkBoard[xcoord][ycoord][z])
+			{
+				checkBoard[xcoord][ycoord][z] = 0;
+			}
+		}
+	}
+
+	x = xcoord;
+	y = ycoord;
+	y=ycoord;	
+	int sqrSize = sqrt(size);
+	int rSqr= xcoord/sqrSize;
+	int cSqr= ycoord/sqrSize;
+	//check the mini grid
+	//puts a 0 in the 3d vector if the value is not possible
+	for (int i=sqrSize*rSqr; i<sqrSize*rSqr + sqrSize; i++){
+		for (int j=sqrSize*cSqr; j<sqrSize*cSqr + sqrSize; j++){
+			for (int z=0; z < size; z++){
+			if (SudokuBoard[i][j] == checkBoard[xcoord][ycoord][z]){
+				checkBoard[xcoord][ycoord][z]=0;
+			}
+			}
+
+		}
+
+	}
+	
+}
+
+
+
+
+
+
+
+}

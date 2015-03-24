@@ -1,0 +1,16 @@
+Celeste Castillo
+CSE 20211
+Lab 3
+
+     	The final part of this lab was to create a program which would plot an ASCII art graph from a math$
+25+(3sin(x)), and the range was from 0 to 35, in increments of 0.5. When the user runs the program, they w$
+two columns for the X and Y values and a third column in which there would be one "*" symbol for every nea$
+first point, (0, 28) would produce "0" in the X column, "28" in the Y column, and 28 "*" symbols in the th$
+shape of the plot. After the program runs through all the values of x, the maximum and minimum values of x$
+        Internally, the first step was to declare the necessary variables, x,y, b, i, xmax, xmin, ymax, an$
+function was used to display the function and range to the user. Initial values of ymax and ymin were set $
+with the calculated y values. Next, a for loop was set up to plot the function. Another for loop was then $
+as it corresponded with the value of y. After this nested for loop, an if loop was set up. This loop compa$
+$n order to get the necessary trigonometric values from the math library.
+
+

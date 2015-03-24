@@ -1,0 +1,82 @@
+\documentclass{article}
+
+\title{Homework 3}
+\author{Celeste Castillo}
+\date{6 Feb 2015}
+
+\begin{document}
+\section{2}
+\subsection{a}
+
+All occurences of the string cat or hat: /(cat|hat)/
+
+\subsection{b}
+
+All occurences of the strings tte or the: /(tte|the)/
+
+\subsection{c}
+
+Any words which are a single letter followed by the letters at:
+
+\subsection{d}
+
+Any occurence of at preceded by any letter except v: \begin{verbatim} /([^v]at)/ \end{verbatim}
+
+\subsection{e}
+
+Any occurence of at preceded by any letters except c or h: \begin{verbatim} /([^ch]at)/ \end{verbatim}
+
+\subsection{f}
+
+Any occurence of cat or rat that is not at the beginning of the line: /()/
+
+\section{3}
+
+((great )*grand)?(([Ff]a|[Mm]o)ther) matches: all of the above
+
+\section{4}
+\subsection{a}
+
+All the occurences of cat: /(cat)/
+
+\subsection{b}
+
+All the occurences of cat and cats: /(cat|cats)/
+
+\subsection{c}
+
+All the occurences of cat or Cat if it's at the beginning of the line: \begin{verbatim} /(^\cat|Cat)/ \end{verbatim}
+
+
+\subsection{d}
+
+All the occurences of cats only if it is at the end of the line: \begin{verbatim} /(cats$)/m \end{verbatim}
+
+\section{5}
+
+All of the words that would match the regular expression, \b(dog(gy|gie)?pupp(y|ie)|canine)s?\b, are: dog, doggy, doggie, puppy, puppie, canine, canines.
+
+\section{6}
+\subsection{a}
+
+Any capitalization: /(bork)/i
+
+\subsection{b}
+Any year between 1950 and 1990: \begin{verbatim} /(\d*19[5-8]|1990)/ \end{verbatim}
+
+\subsection{c}
+Any form of the verb "sing": \begin{verbatim} /(\w*s[aiu]ng.*)/ \end{verbatim}
+
+\subsection{d}
+All of the strings: "running water", "rushing water", and "flowing water": \begin{verbatim} /+.(water)/ \end{verbatim}
+
+\subsection{e}
+Any odd integer: \begin{verbatim} /(\d*[13579]$)/ \end{verbatim}
+
+\subsection{f}
+The strings "and/or" and "red oak", but not "drop", "dog", or "d4o16": \begin{verbatim} /(^[ar].+)/ \end{verbatim}
+
+\subsection{g}
+A random social security number with or without dashes between the numeric groups: \begin{verbatim} /(\d*.+9)/ \end{verbatim}
+
+\end{document}

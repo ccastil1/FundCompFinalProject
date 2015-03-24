@@ -1,0 +1,32 @@
+template<typename T>
+void Puzzle<T>::checkPlacement(int xcoord, int ycoord, int num)
+{
+	int check = 0;
+
+	for(int i = 0; i<size; i++)
+	{
+		for(int j=0; j,size; j++)
+		{
+			if(SudokuBoardVec[xcoord][j] == num)
+			{
+				check = 1;
+			}
+		}
+	}
+	cout <<check<<endl;
+	
+
+
+	for(int i = 0; i<size; i++)
+	{
+		for(int j=0; j,size; j++)
+		{
+			if(SudokuBoardVec[i][j] == num)
+			{
+				check = 2;
+			}
+		}
+	}
+	cout << check <<endl;
+	
+}

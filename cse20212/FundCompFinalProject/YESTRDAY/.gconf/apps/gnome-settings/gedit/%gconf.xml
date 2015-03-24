@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="history-gedit2_replace_with_entry" mtime="1425635720" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>count</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>size</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>checkBoard</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>SudokuBoardVec</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>\end{lstlisting}</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>\begin{lstlisting}{language=C}</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>CardDeck</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>Rational</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>counter</stringvalue>
+		</li>
+	</entry>
+	<entry name="history-gedit2_search_for_entry" mtime="1425635720" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>trollNum</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>Sudoku</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>numLines</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>testBoard</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>SudokuBoard</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>fillBoard</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>\end{verbatim}</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>\begin{verbatim}</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>C4Col</stringvalue>
+		</li>
+	</entry>
+</gconf>

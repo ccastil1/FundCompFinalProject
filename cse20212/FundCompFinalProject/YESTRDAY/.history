@@ -1,0 +1,80 @@
+#+1424376149
+cat orioles.txt | awk 'BEGIN{FS = "|"} $1 ~ /[^#]/ {print $1}'
+#+1424376227
+cat orioles.txt | awk 'BEGIN{FS = "|"} $1 ~ /33/ {print $1}'
+#+1424376232
+cat orioles.txt | awk 'BEGIN{FS = "|"} $1 ~ /33/ {print $2}'
+#+1424376252
+cat orioles.txt | awk 'BEGIN{FS = "|"} $1 ~ /Catchers/ {print $2}'
+#+1424376258
+cat orioles.txt | awk 'BEGIN{FS = "|"} $2 ~ /Catchers/ {print $2}'
+#+1424376377
+cat orioles.txt | awk 'BEGIN{FS = "|"} $1 ~ /#/ {print $0}'
+#+1424376382
+cat orioles.txt | awk 'BEGIN{FS = "|"} $1 ~ /^#/ {print $0}'
+#+1424376394
+cat orioles.txt | awk 'BEGIN{FS = "|"} $1 ~ /0-99/ {print $0}'
+#+1424376402
+cat orioles.txt | awk 'BEGIN{FS = "|"} $1 ~ /(2)/ {print $0}'
+#+1424376407
+cat orioles.txt | awk 'BEGIN{FS = "|"} $1 ~ /(0-10)/ {print $0}'
+#+1424376593
+cat orioles.txt | awk 'BEGIN{FS = "|"} $1 ~ /(^#)/ {print $0}'
+#+1424376605
+cat orioles.txt | awk 'BEGIN{FS = "|"} $1 ~ /[^#]/ {print $0}'
+#+1424376677
+cat orioles.txt | awk 'BEGIN{FS = "|"} $1 ~ /[0-9][0-9]/ {print $0}'
+#+1424376794
+cat orioles.txt | awk 'BEGIN{FS = "|" $7 ~ /[1][9][3][0-9]/ {print $2} '
+#+1424376813
+cat orioles.txt | awk 'BEGIN{FS = "|" $7 ~ /[1][9][3][0-9]/ {print $2}'
+#+1424376820
+cat orioles.txt | awk 'BEGIN{FS = "|"} $7 ~ /[1][9][3][0-9]/ {print $2}'
+#+1424376866
+cat orioles.txt | awk 'BEGIN{FS = "|"} $7 ~ /[1][9][3][0-9]|[4][0]/ {print $2}'
+#+1424551778
+cd /afs/nd.edu/coursefa.15
+#+1424551788
+cd /afs/nd.edu/coursesp.15
+#+1424551969
+cd /afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/
+#+1424551992
+nano Puzzle.h
+#+1424552009
+cd lab5
+#+1424552065
+cd lab4
+#+1424552070
+nano makefule
+#+1424552079
+gedit makefile &
+#+1424552088
+cd ..
+#+1424552093
+cd Sudoku
+#+1424552098
+nano makefile
+#+1424552655
+clear
+#+1424552656
+make
+#+1424553184
+git pull
+#+1424715976
+exec /afs/nd.edu/user21/ccastil1/cse20212/lab5/main
+#+1424726715
+exec /afs/nd.edu/user21/ccastil1/cse20212/lab5/newlab5/main
+#+1424843583
+cd /afs/nd.edu/coursesp.15/cse/cse20212.01/dropbox/ccastil1/lab3
+#+1424843585
+ls
+#+1424843589
+nano report.txt
+#+1424848570
+gedit report.txt
+#+1424848574
+exit
+#+1425611919
+cd /afs/nd.edu/coursesp.15/cse/cse20189.01/dropbox/ccastil1/midterm
+#+1425611928
+evince midterm.pdf &

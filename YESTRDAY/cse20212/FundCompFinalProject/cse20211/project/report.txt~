@@ -1,0 +1,28 @@
+Alex Cao and Celeste Castillo
+
+Final Project Report
+
+	The objective of this project was to create an interactive typing game using the C language. From the user perspective, once the program was launched, the game 
+would begin. At the beginning of every game, the user would start with a score of 0 and an "hp", or health count, of 100. Words would then begin to fall from the sky and 
+the user would be prompted to type each falling word as quickly as possible. The user's score would increase by an amount equal to the length of the word if the word was 
+correctly typed before hitting the ground. If the user was unable to type the word before it hit the ground, hp points would be deducted. Once the user's hp level reaches 
+0, the game ends. After the game ends, a high scores list would appear with the top 10 scores, allowing the user to see how their performance compares to other users.
+	From the programmers' perspective, the program utilizes the GFX library and corresponding functions to create the game space. A extensive amount of our own 
+functions were used in the program as well. Functions were used to draw everything on the game screen, including hp count, score, the mountain landscape, the falling 
+words, and the input text. Another function used was the one that used file pointers to read in a file, "words.txt", which served as the word bank for the game, and then 
+randomly select the words for gameplay. Another function using file pointers was the function that updated the high scores. An initial file, "scores.txt" was used to read 
+in a list of scores of our own choosing. Then, after each game, the user's score would be compared to these scores and appropriately ranked in the list of high scores. 
+The "scores.txt" file was updated in such a way that allowed every new score to be added to the original scores list, ensuring that the top scores would show up after 
+multiple games. First, the program reads from the file to get the list of words which, in the program, is represented in a 2d char array. Then it generates an array with 
+5 structs, each with its own x position (vectorX), y position (vectorY), X speed (xDelta), Y speed (formerly yDelta but now yDeltaT as the original plan involved 
+parabolic movement until that was deemed too difficult), corresponding string, and difficulty threshold. The first 4 properties of the structs are self-explanatory, but 
+the difficulty threshold property 'holds it back' until the difficulty (an integer incremented by one every time the player successfuly enters a word) exceeds 2 to the 
+power of the difficulty threshhold. If the difficulty exceeds 2 to the power of the difficulty threshhold of the struct, the struct is sent through the Update function 
+where it changes the struct's x position property by the X speed property and changes the y position by the Y speed property. If the struct ever reaches the edge of the 
+screen, Update sends it back the other direction by a random amount (whose min and max values are determined by difficulty). If the word reaches the bottom, the program 
+resets the function, giving it a new position (at the top of the screen), a new word, and a random x and y speed. Back in the main loop, there are two other important 
+sections of the loop, TypeUpdate and TypeCheck. Type Update updates the screen to the user's inputs. Each alphanumeric keystroke is added to a string displayed below by 
+the means of an integer (typeLoc) recording the user's cursor's position in modifying the string which is incremented every time the user types in a letter. The string is 
+cleared and typeLoc resets if the user hits any other key. Within the main function, the program uses for loops to complete a "type check"; this compares the user's input 
+to the actual word. Once the word has been correctly typed, the memset function is used to clear the string and resets typeLoc to 0, then a call to the reset function is 
+made and the next words are generated.

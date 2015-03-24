@@ -1,0 +1,5 @@
+Celeste Castillo
+CSE 20212
+Lab 1 Report
+
+    The purpose of the Connect 4 board game lab was to use classes and the new/delete function to create a plain text version of a Connect 4 board game. From the user perspective, once the user launches the program, a labeled, empty game board constructed of "|" symbols is displayed. The user is then prompted to enter the number of the column in which they want to place a disk.

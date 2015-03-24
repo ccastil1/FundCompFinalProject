@@ -1,0 +1,20 @@
+Celeste Castillo
+CSE 20212
+Lab 0
+
+Report on the Pi Estimator
+
+The program to estimate the value of pi uses the sum of an infinite series which follows the pattern 4/(2*i - 1), where the value is negative if i is even 
+and positive if odd. As soon as the user launches the program, they are prompted to enter the number of terms they wish to use in the series. For this estimation, the user must 
+enter a number greater than or equal to 2. If the user enters a number less than 2, an error message will be displayed and the user will be prompted to 
+re-enter a valid number. After the user enters a valid number, the program will output the estimation of pi calculated with the specified number of terms. 
+Internally, the program utilizes a function that is called to estimate pi. This function first establishes an initial value of 4/(2*i -1), and then sets up a 
+if/else statements to return a negative value if the term in the series is even and a positive value if the term is odd. The function then returns the value, 
+with data type double. The function uses static cast for i because in the function, i is used as a double, but in the main function, it is used as an int. In 
+the main function, the cout and cin functions are used to output the message for the user to enter the desired number of terms, and then assign that number 
+to the int variable n. A while loop is then established to ensure that if the user enters a number less than 2, they will be shown an error message and asked 
+to re-enter a number. Then, a for loop, of the range i-n, calculates the sum of the series estimation by calling the estimate function. Finally, a cout 
+function is used to display the value of the estimation of pi to the user. To verify the program, I tested term values of 0-5 and compared them to the values 
+obtained using another calculator. Then, I entered 100 for the number of terms, since the estimation should approach 3.1415926535... as the number of terms 
+increases.
+

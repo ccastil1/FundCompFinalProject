@@ -1,0 +1,207 @@
+/*template<typename T>
+void Puzzle<T>::checkPlacement(int xcoord, int ycoord, int num)
+{
+	int x = xcoord;
+	int y = ycoord;
+	int check = 0;
+
+	/*if(check = 0)
+	{
+		for(int z=0; z < size; z++)
+		{
+			checkBoard[xcoord][ycoord][z] = 0;
+		}	
+		check = 1;
+
+		SudokuBoardVec[xcoord][ycoord] = num;		
+		display();
+		numPlacement();
+	} */
+
+
+	for(x=0; x < size; x++)
+	{
+		for(int z=0; z < size; z++)
+		{	
+			if(SudokuBoardVec[x][ycoord] == checkBoard[xcoord][ycoord][z])
+			{
+				checkBoard[xcoord][ycoord][z] = 0;
+			}
+		}
+	}
+
+
+/*	if(SudokuBoardVec[xcoord][ycoord] == 0)
+	{	
+		SudokuBoardVec[xcoord][ycoord] = num;
+		display();
+		numPlacement();
+	}
+
+	else
+	{
+		display();
+		numPlacement();
+	}
+*/
+
+
+	for(y=0; y < size; y++)
+	{
+		for(int z=0; z < size; z++)
+		{
+			if(SudokuBoardVec[xcoord][y] == checkBoard[xcoord][ycoord][z])
+			{
+				//checkBoard[xcoord][ycoord][z] = 0;
+				SudokuBoardVec[xcoord][ycoord] = num;
+			}
+		}
+	}
+
+
+/*	if(SudokuBoardVec[xcoord][ycoord] == 0)
+	{	
+		SudokuBoardVec[xcoord][ycoord] = num;
+		display();
+		numPlacement();
+	}
+
+	else
+	{
+		display();
+		numPlacement();
+	}
+*/
+	x = xcoord;
+	y = ycoord;
+	y=ycoord;	
+	int sqrSize = sqrt(size);
+	int rSqr= xcoord/sqrSize;
+	int cSqr= ycoord/sqrSize;
+	//check the mini grid
+	//puts a 0 in the 3d vector if the value is not possible
+	for (int i=sqrSize*rSqr; i<sqrSize*rSqr + sqrSize; i++){
+		for (int j=sqrSize*cSqr; j<sqrSize*cSqr + sqrSize; j++){
+			for (int z=0; z < size; z++){
+			if (SudokuBoardVec[i][j] == checkBoard[xcoord][ycoord][z]){
+				checkBoard[xcoord][ycoord][z]=0;
+			}
+			}
+
+		}
+
+	}
+
+/*	if(SudokuBoardVec[xcoord][ycoord] == 0)
+	{	
+		SudokuBoardVec[xcoord][ycoord] = num;
+		display();
+		numPlacement();
+	}
+
+	else
+	{
+		display();
+		numPlacement();
+	}	
+*/
+	
+}
+
+*/
+
+
+
+
+
+
+
+/*template<typename T>
+void Puzzle<T>::continuePlay(){
+
+	string playAgain;
+	cout << "Continue Playing? (yes/no)\n";
+	cin >> playAgain;
+
+	if(playAgain == "yes")
+	{
+		numPlacement();
+	}
+	else
+	{
+		exit(1);
+	}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+	int tmpArray[size];
+
+	for(int i=0; i<size; i++)
+	{
+		for(int j=0; j<size; j++)
+		{
+			for(int k=0; k<size; k++)
+			{
+				if((j!=k)&&(SudokuBoardVec[i][j] != 0)&&(SudokuBoardVec[i][k] != 0))
+				{	
+					if(SudokuBoardVec[i][j] == SudokuBoardVec[i][k]) //return 0;
+				}
+			}
+		}
+	}
+
+
+	for(int i=0; i<size; i++)
+	{
+		for(int j=0; j<size; j++)
+		{
+			for(int k=0; k<size; k++)
+			{
+				if((j!=k)&&(SudokuBoardVec[j][i] != 0)&&(SudokuBoardVec[k][i] != 0))
+				{	
+					if(SudokuBoardVec[j][i] == SudokuBoardVec[i][k]) //return 0;
+				}
+			}
+		}
+	}
+
+	for(int i=0; i<sqrt(size); i++)
+	{
+		for(int j=0; j<sqrt(size); j++)
+		{
+			for(int k=0; k<sqrt(size); k++)
+			{
+				for(int l=0; l<sqrt(size); l++)
+				{
+					tmpArray[k*(sqrt(size))+l] = SudokuBoardVec[i*(sqrt(size))+k][j*(sqrt(size))+l];
+				}
+			}
+		}
+	}
+
+	for(int m=0; m<size; m++)
+	{
+		for(int n=0; n<size; n++)
+		{
+			if((m!=n)&&(tmpArray[m] != 0)&&(tmpArray[n] != 0))
+			{	
+				if(tmpArray[m] == tmpArray[n]) //return 0;
+			}
+		}
+	}
+
+}

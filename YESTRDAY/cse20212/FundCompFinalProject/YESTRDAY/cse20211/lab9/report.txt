@@ -1,0 +1,22 @@
+Celeste Castillo
+CSE 20211
+11/25/14
+
+Lab 9 Report
+
+
+The purpose of this assignment was to recreate a version of Conway's Game of Life using cellular automata. From the user perspective, the program could run in 
+two modes. In interactive mode, the program would first display a list of options from which the user could choose. These options were 'a' for add a new cell, 
+'r' for remove a cell, 'n' for advance the game to the next iteration, 'p' for play in interactive mode, and 'q' for quit the program. If the user chose 'a' 
+or 'r', the program would prompt the user to enter the coordinates of the cell to be added or removed. If the user chose 'p', the game would play continuously 
+and the only way to stop the program would be to force a quit using the "control c" command. The other mode utilizes argc and argv commands to pass a data 
+file at the command line. This data file would then be played continuously. From the programmer's perspective, in interactive mode, the program displays the 
+list of options, and then prompts the user to enter the specific letter of their desired option. If neccessary, the user would be prompted to enter the 
+coordinates of the cell to be added or removed. The other mode, reads in data files by utilizing argc and argc commands. At the command line, the user would 
+enter life(the name of the executable of the game of life program) followed by the name of the data file. For this lab, multiple scenes were created with 
+various data to continuously run various life scenes in the game. For example, to pass the scene 1 data file at the command line, the user would enter life 
+scene1.life. The program uses a 2D char array for the boards. The program uses simple for loops to check the availability of spaces so that cells can be added 
+or removed. The program was run multiple times to try to verify that the output of the program was correct. On some of the trials, the key 'q' would not cause 
+the program to quit, but the other functions of the program worked when tried.
+
+
